@@ -7,7 +7,7 @@ Still in early beta testing.  Looking at a lot of code clean up since it had to 
 
 Based off of the works of wp-smartcrop.
 
-If you'd like to help develop or test this, please contact me at chase@o2group.com 
+If you'd like to help develop or test this, please contact me at chase@crumbls.com 
 
 TODO:
 - Finish rewrite of main class.
