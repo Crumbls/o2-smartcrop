@@ -5,12 +5,12 @@ You can select a focus point on an image, then regenerate thumbnails. Any crops 
 
 Still in early beta testing.  Looking at a lot of code clean up since it had to be implemented very quickly for a client.
 
-Based off of the works of wp-smartcrop.
+Based off of the works of wp-smartcrop. It looks like they haven't worked on their repo in 2+ years.
 
 If you'd like to help develop or test this, please contact me at chase@crumbls.com 
 
 TODO:
-- Finish rewrite of main class.
+- Finish rewrite of main class.  Remove anonymous functions and move to appropriate methods separated into admin and common classes.
 - Include example code for setting focus for background images based on the percentage.  Use example below.
 - Rework for post_content.
 - Add any other image formats.
