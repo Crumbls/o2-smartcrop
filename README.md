@@ -11,8 +11,18 @@ If you'd like to help develop or test this, please contact me at chase@crumbls.c
 
 TODO:
 - Finish rewrite of main class.
+- Include example code for setting focus for background images based on the percentage.  Use example below.
 - Rework for post_content.
 - Add any other image formats.
 - Disable need to use a tool like "Regenerate Thumbnails" to regenerate the thumbnails once complete.
 - Test, test, test.
 - If it's working well, figure out if it goes to the repo.
+
+
+Dev note example:
+
+    if (get_post_meta($attachmentId, '_wpsmartcrop_enabled', true)) {
+        if ($tmp = get_post_meta($attachmentId, '_wpsmartcrop_image_focus', true)) {
+            printf('background-position: %s%% %s%%;', $tmp['left'], $tmp['top']);
+        }
+    }
